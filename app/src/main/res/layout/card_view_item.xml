@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/cv_main">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:padding="5dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_weight="3.7"
+            android:layout_height="128dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/logoch"
+            android:scaleType="centerCrop">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="comida"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="comida lugar"
+                android:textSize="16sp"
+                android:textStyle="italic">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="001"
+                android:visibility="invisible"
+                android:id="@+id/header">
+            </TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            android:width="0dp"
+            android:background="@drawable/round_button"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="Ver"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"></Button>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

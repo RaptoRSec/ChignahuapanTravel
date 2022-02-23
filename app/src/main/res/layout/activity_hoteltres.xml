@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".hoteltres">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/colorPrimary"
+            app:expandedTitleMarginBottom="20dp"
+            app:expandedTitleMarginStart="15dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hotel3"
+                app:layout_collapseMode="parallax">
+            </ImageView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/text_background">
+
+            </View>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:contentInsetStart="0dp"
+                app:contentInsetStartWithNavigation="0dp"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light">
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:overScrollMode="never"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/claveitem"
+                android:visibility="invisible"
+                android:text="001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="23dp"
+                android:src="@drawable/col1"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:paddingBottom="23dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/col2">
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:paddingBottom="23dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/col3">
+            </ImageView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/gps"
+        android:layout_width="wrap_content"
+        app:fabCustomSize="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_location"
+        app:layout_anchor="@id/appbarlayout"
+        app:layout_anchorGravity="bottom|end|right"
+        app:maxImageSize="28dp"
+        android:tint="@color/colorimagebotton">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        app:fabCustomSize="50dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/whatslogo"
+        app:layout_anchor="@id/appbarlayout"
+        app:layout_anchorGravity="bottom|end|right"
+        app:maxImageSize="28dp"
+        android:layout_marginRight="65dp"
+        android:tint="@color/colorimagebotton">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/redsocial"
+        android:layout_width="wrap_content"
+        app:fabCustomSize="50dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/facelogo"
+        app:layout_anchor="@id/appbarlayout"
+        app:layout_anchorGravity="bottom|end|right"
+        app:maxImageSize="28dp"
+        android:layout_marginRight="130dp"
+        android:tint="@color/colorimagebotton">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Chignahuapan Travel</string>
+    <string name="acerca">Acerca</string>
+    <string name="text_demo">Disfruta sabores espectaculares y tradicionales con un toque familiar, para convivir con tus seres queridos y sentirte en casa. ¡Un lugar donde se puede comer bien a cómodos precios, no esperes más y ven con nosotros!\n</string>
+    <string name="comidados">Hotel y Restaurante ofrece su gastronomía con sabores únicos en compañía de tu familia y amigos, disfruta un ambiente relajante y comparte mágicos momentos.\n</string>
+    <string name="comidatres">Un lugar para compartir y disfrutar tus mejores momentos con tus seres queridos.\n</string>
+    <string name="comidacuatro">Que mejor lugar para tomar un buen café dentro del corazon de la ciudad.\n</string>
+    <string name="comidacinco">Convive en familia y con amigos, enriquece tu paladar con deliciosos sabores que te dejarán con hambre.\n</string>
+    <string name="comidaseis">Comida tradicional con un ambiente estilo revolucionario que nos lleva a nuestras raices.\n</string>
+    <string name="comidasiete">Una cocina tradicional con un toque especial ofreciendo el mejor sabor a la mesa.\n</string>
+    <string name="visitar1">Se encuentra a 5 calles del centro de la ciudad. Da nombre al municipio de Chignahuapan que significa “En las 9 aguas” En ella se realiza el Festival de la Luz y de la Vida en el mes de noviembre y torneos de trucha. Asi mismo se puede disfrutar de paseos en lancha, kayak y demas actividades.\n</string>
+    <string name="visitar2">En su interior se encuentra una escultura de la Virgen de la Inmaculada Concepción, construida totalmente en madera. Es la más grande de Latinoamérica bajo techo. Mide más de 12 metros de altura y fue tallada por el escultor José Luis Silva en el año de 1998, esta iglesia fue elevada a Basílica por el papa Juan Pablo II. Durante todo el año llegan miles de peregrinos por los milagros recibidos.\n</string>
+    <string name="visitar3">Construido en su totalidad en madera, considerado único en el país, es de estilo mudéjar y cubre una fuente. Se encuentra en el centro de la ciudad.\n</string>
+    <string name="visitar4">Es de estilo barroco indígena, con una fachada  muy colorida y única que esconde símbolos aztecas. Tiene representados a Tlaloc y Quetzalcoatl.\n</string>
+    <string name="visitar5">Centro ecoturístico Salto de Quetzalapan cuenta con cascadas, tirolesa y Puente colgante sobre las cascadas a 200 metros de altura, cafeteria, asadores, etc. Abierto de 09:00 am a 06:00 pm </string>
+    <string name="dulce1">Vive y disfruta una más de nuestras emocionantes aventuras que te sorprenderán, </string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+</resources>

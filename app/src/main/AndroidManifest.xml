@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devsden.turismov01">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoch"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Dulcedos" />
+        <activity android:name=".Dulceuno" />
+        <activity android:name=".hotelseis" />
+        <activity android:name=".hotelcinco" />
+        <activity android:name=".hotelcuatro" />
+        <activity android:name=".hoteltres" />
+        <activity android:name=".hoteldos" />
+        <activity android:name=".hoteluno" />
+        <activity android:name=".Visitarcinco" />
+        <activity android:name=".Visitarcuatro" />
+        <activity android:name=".Visitartres" />
+        <activity android:name=".Visitardos" />
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".Visitaruno" />
+        <activity android:name=".OneActivity" />
+        <activity android:name=".comidasiete" />
+        <activity android:name=".comidaseis" />
+        <activity android:name=".comidacinco" />
+        <activity android:name=".comidacuatro" />
+        <activity android:name=".comidatres" />
+        <activity android:name=".comidados" />
+        <activity
+            android:name=".ComidaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".comidauno"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DashboardAventura"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DulcesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VisitarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HotelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Onboarding"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>
